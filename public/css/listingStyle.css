@@ -1,0 +1,292 @@
+.listing_container{
+	color: black;
+	font-family: helvetica;
+	margin-left: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	margin-right: 50px;
+	
+	background-color: white ;
+	opacity: 0.9;
+	
+}
+
+.header{
+	font-size: 10px;
+	float: top;
+	border-bottom: #5B514F solid;
+}
+
+.row1{
+	width: 100%;
+	padding-right: 5px;
+	border-bottom: #9B9796 double;
+	height:230px;
+	margin-bottom:20px;
+}
+
+.image{
+	border: solid #696969;
+	border-width: 2 2px;
+	float: left;
+	height: 200px;
+	width: 400px;
+}
+
+.right-box{
+	padding-left: 30px;
+	float:left;
+	
+
+}
+
+.buttons{
+	float: left;
+}
+
+
+.buyer-info{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 50px;
+	float: left;
+  width: 330px;
+}
+
+.buyer-info a{
+	text-decoration: none;
+  float: right;
+}
+
+.buyer-info p{
+	padding: 2px;
+}
+
+
+
+
+/*
+@media only screen and (max-width: 1027px) {
+    .row{
+        height: 370px;
+    }
+
+    .right-box{
+	padding-left: 0px;
+	float:left;
+	float: bottom;
+}
+
+.buyer-info{
+	margin-top: 15px;
+	font-size: 17px;
+	margin-left: 40px;
+	float: right;
+	position: center;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    .row{
+        height: 400px;
+        font-size: 10px;
+    }
+    .buyer-info{
+	margin-top: 15px;
+	font-size: 17px;
+	margin-left: 40px;
+	float: right;
+	position: center;
+}
+}*/
+
+.contact_container{
+
+	height: 350px;
+	margin-left: 100px;
+	padding-left: 50px;
+  padding-right: 50px;
+	margin-right: 100px;
+	width: 80%;
+	background-color: white ;
+	opacity: 0.9;
+  position: relative;
+
+
+}
+
+.renter_information{
+	padding-top: ;
+	color: black;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 10px;
+	float: left;
+}
+
+.edit-button{
+	margin-bottom: 20px;
+	text-align: center;
+	width: 100%;
+	float: left;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2a7db0);
+  background-image: -moz-linear-gradient(top, #3498db, #2a7db0);
+  background-image: -ms-linear-gradient(top, #3498db, #2a7db0);
+  background-image: -o-linear-gradient(top, #3498db, #2a7db0);
+  background-image: linear-gradient(to bottom, #3498db, #2a7db0);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  -webkit-box-shadow: 3px 3px 20px #666666;
+  -moz-box-shadow: 3px 3px 20px #666666;
+  box-shadow: 3px 3px 20px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+ .page-header{
+  padding-top: 20px;
+ }
+
+.edit-button:hover{
+  background: #41aaeb;
+  background-image: -webkit-linear-gradient(top, #41aaeb, #2a82bd);
+  background-image: -moz-linear-gradient(top, #41aaeb, #2a82bd);
+  background-image: -ms-linear-gradient(top, #41aaeb, #2a82bd);
+  background-image: -o-linear-gradient(top, #41aaeb, #2a82bd);
+  background-image: linear-gradient(to bottom, #41aaeb, #2a82bd);
+  text-decoration: none;
+  color: white;
+}
+
+.remove-button {
+  background: #d93434;
+  background-image: -webkit-linear-gradient(top, #d93434, #b02a2a);
+  background-image: -moz-linear-gradient(top, #d93434, #b02a2a);
+  background-image: -ms-linear-gradient(top, #d93434, #b02a2a);
+  background-image: -o-linear-gradient(top, #d93434, #b02a2a);
+  background-image: linear-gradient(to bottom, #d93434, #b02a2a);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  -webkit-box-shadow: 3px 3px 20px #666666;
+  -moz-box-shadow: 3px 3px 20px #666666;
+  box-shadow: 3px 3px 20px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.remove-button:hover {
+  background: #d61535;
+  background-image: -webkit-linear-gradient(top, #d61535, #bd2c2c);
+  background-image: -moz-linear-gradient(top, #d61535, #bd2c2c);
+  background-image: -ms-linear-gradient(top, #d61535, #bd2c2c);
+  background-image: -o-linear-gradient(top, #d61535, #bd2c2c);
+  background-image: linear-gradient(to bottom, #d61535, #bd2c2c);
+  text-decoration: none;
+  color: white;
+}
+
+.message-button {
+  background: #16b516;
+  background-image: -webkit-linear-gradient(top, #16b516, #117a11);
+  background-image: -moz-linear-gradient(top, #16b516, #117a11);
+  background-image: -ms-linear-gradient(top, #16b516, #117a11);
+  background-image: -o-linear-gradient(top, #16b516, #117a11);
+  background-image: linear-gradient(to bottom, #16b516, #117a11);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 3px 20px #666666;
+  -moz-box-shadow: 4px 3px 20px #666666;
+  box-shadow: 4px 3px 20px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 2px 7px 2px 7px;
+  border: solid #0d5e1c 2px;
+  text-decoration: none;
+  opacity: 0.9;
+
+}
+
+.message-button:hover {
+  background: #34d100;
+  background-image: -webkit-linear-gradient(top, #34d100, #298f00);
+  background-image: -moz-linear-gradient(top, #34d100, #298f00);
+  background-image: -ms-linear-gradient(top, #34d100, #298f00);
+  background-image: -o-linear-gradient(top, #34d100, #298f00);
+  background-image: linear-gradient(to bottom, #34d100, #298f00);
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+}
+
+.renter_information{
+  height: 600px;
+  padding-left: 20px;
+}
+.contact_info_name{
+  float: left;
+  font-size: 10%;
+}
+.contact_info_message{
+  position: center;
+  font-size: 200%;
+  width: 500px;
+  border: thin solid #000;
+  padding: 30px;
+  text-align: left;
+}
+.contact_info_email h1 {
+    float: left;
+    font-size: 400%!important;
+}
+
+
+.email-button{
+  margin-bottom: 20px;
+  text-align: center;
+  width: 35%;
+  float: left;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2a7db0);
+  background-image: -moz-linear-gradient(top, #3498db, #2a7db0);
+  background-image: -ms-linear-gradient(top, #3498db, #2a7db0);
+  background-image: -o-linear-gradient(top, #3498db, #2a7db0);
+  background-image: linear-gradient(to bottom, #3498db, #2a7db0);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  -webkit-box-shadow: 3px 3px 20px #666666;
+  -moz-box-shadow: 3px 3px 20px #666666;
+  box-shadow: 3px 3px 20px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  float: right ;
+}
+
+.email-button:hover{
+  background: #41aaeb;
+  background-image: -webkit-linear-gradient(top, #41aaeb, #2a82bd);
+  background-image: -moz-linear-gradient(top, #41aaeb, #2a82bd);
+  background-image: -ms-linear-gradient(top, #41aaeb, #2a82bd);
+  background-image: -o-linear-gradient(top, #41aaeb, #2a82bd);
+  background-image: linear-gradient(to bottom, #41aaeb, #2a82bd);
+  text-decoration: none;
+  color: white;
+}
+
